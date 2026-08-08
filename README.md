@@ -1,8 +1,29 @@
+![Records](https://img.shields.io/badge/records-2000-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Price](https://img.shields.io/badge/price-50-brightgreen)
+
 # Warehouse Robotics and Logistics
 
 Robotics manipulation dataset for warehouse automation, including grasp poses, trajectories, sensor readings, and task execution metrics.
 
 ## Dataset Overview
+
+## Data Dictionary
+
+| Field | Type | Description |
+|-------|------|-------------|
+| task_type | string | pick-and-place, sorting, palletizing |
+| robot_type | string | 6DOF, SCARA, Delta, Cobot |
+| trajectory_waypoints | array | Joint angle sequences |
+| grasp_pose_6dof | array | Position + orientation |
+| gripper_force | float | Newtons applied |
+| success_rate | float | 0-1 success probability |
+| execution_time_sec | float | Task duration |
+| sensor_readings | object | RGB, depth, force-torque |
+| object_type | string | Cube, cylinder, gear, etc. |
+| failure_mode | string | Type of failure if any |
+
+
 
 | Property | Value |
 |----------|-------|
@@ -60,3 +81,16 @@ This dataset is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licens
 
 ---
 *Dataset curated by [Manteclaw](https://github.com/manteclaw). For inquiries: manteclaw@proton.me*
+
+## More Datasets from Manteclaw
+
+| Dataset | Records | Price | Link |
+|---------|---------|-------|------|
+| DeFi Protocol Risk Metrics | 1,639 | $49 | [GitHub](https://github.com/manteclaw/defi-risk) |
+| Drug Interaction & Pharmacology | 2,231 | $35 | [GitHub](https://github.com/manteclaw/pharmacology) |
+| Warehouse Robotics & Logistics | 2,000 | $50 | [GitHub](https://github.com/manteclaw/warehouse-logistics) |
+| LLM Safety & Red Teaming | 2,000 | $49 | [GitHub](https://github.com/manteclaw/llm-safety) |
+| Crypto Quant Trading Signals | 1,500 | $69 | [GitHub](https://github.com/manteclaw/crypto-quant) |
+| Cybersecurity Intrusion Detection | 2,000 | $49 | [GitHub](https://github.com/manteclaw/cybersecurity-intrusion) |
+
+**All datasets available at:** https://payhip.com/Manteclaw
