@@ -15,7 +15,7 @@ Robotics manipulation dataset for warehouse automation, including grasp poses, t
 
 The complete dataset (2,500 records) is available for purchase:
 
-- **Store:** [https://manteclaw.gumroad.com](https://manteclaw.gumroad.com)
+- **Store:** [https://payhip.com/Manteclaw](https://payhip.com/Manteclaw)
 - **Email:** manteclaw@proton.me
 
 ## Files
@@ -54,7 +54,7 @@ This dataset is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licens
   year         = {2026},
   url          = {https://github.com/manteclaw/warehouse-logistics},
   license      = {CC-BY-SA-4.0},
-  note         = {Sample dataset. Full version available at https://manteclaw.gumroad.com},
+  note         = {Sample dataset. Full version available at https://payhip.com/Manteclaw},
 }
 ```
 
