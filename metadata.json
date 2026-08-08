@@ -1,0 +1,107 @@
+{
+  "name": "Warehouse Robotics and Logistics",
+  "description": "Robotics manipulation dataset for warehouse automation, including grasp poses, trajectories, sensor readings, and task execution metrics.",
+  "record_count": 2500,
+  "sample_size": 100,
+  "price": "$39",
+  "currency": "USD",
+  "license": "CC-BY-SA-4.0",
+  "tags": [
+    "robotics",
+    "warehouse",
+    "logistics",
+    "automation",
+    "manipulation"
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "Field: id"
+    },
+    {
+      "name": "task_type",
+      "type": "string",
+      "description": "Field: task_type"
+    },
+    {
+      "name": "robot_type",
+      "type": "string",
+      "description": "Field: robot_type"
+    },
+    {
+      "name": "object",
+      "type": "string",
+      "description": "Field: object"
+    },
+    {
+      "name": "grasp_pose",
+      "type": "string",
+      "description": "Field: grasp_pose"
+    },
+    {
+      "name": "trajectory",
+      "type": "string",
+      "description": "Field: trajectory"
+    },
+    {
+      "name": "sensor_readings",
+      "type": "string",
+      "description": "Field: sensor_readings"
+    },
+    {
+      "name": "execution_time_ms",
+      "type": "string",
+      "description": "Field: execution_time_ms"
+    },
+    {
+      "name": "success",
+      "type": "string",
+      "description": "Field: success"
+    },
+    {
+      "name": "failure_mode",
+      "type": "string",
+      "description": "Field: failure_mode"
+    },
+    {
+      "name": "collision_detected",
+      "type": "string",
+      "description": "Field: collision_detected"
+    },
+    {
+      "name": "workspace_constraints",
+      "type": "string",
+      "description": "Field: workspace_constraints"
+    },
+    {
+      "name": "environment",
+      "type": "string",
+      "description": "Field: environment"
+    },
+    {
+      "name": "lighting",
+      "type": "string",
+      "description": "Field: lighting"
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "description": "Field: timestamp"
+    },
+    {
+      "name": "data_source",
+      "type": "string",
+      "description": "Field: data_source"
+    },
+    {
+      "name": "is_synthetic",
+      "type": "string",
+      "description": "Field: is_synthetic"
+    }
+  ],
+  "source": "Synthetic / Curated",
+  "created": "2026-08-08",
+  "contact": "manteclaw@proton.me",
+  "store_url": "https://manteclaw.gumroad.com"
+}
